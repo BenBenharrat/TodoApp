@@ -13,6 +13,7 @@ router.get("/api", (req, res) => {
   });
 });
 
+router.get("/api/todos", todosController.list);
 router.post("/api/todos", todosController.create);
 
 module.exports = router;

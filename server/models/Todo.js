@@ -4,7 +4,6 @@ module.exports = (sequelize, DataTypes) => {
     "Todo",
     {
       title: DataTypes.STRING,
-      allowNull: false
     },
     {}
   );
